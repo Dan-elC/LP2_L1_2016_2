@@ -18,7 +18,7 @@ public class Member extends Team{
 		code++;
 	}
 
-	public getName(){
+	public Sring getName(){
 		return name;
 	}
 	public void setName(String name){
