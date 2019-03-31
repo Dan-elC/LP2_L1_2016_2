@@ -21,31 +21,31 @@ public class Member extends Team{
 	public getName(){
 		return name;
 	}
-	public setName(String name){
+	public void setName(String name){
 		this.name = name;
 	}
-	public getBirthday(){
+	public Date getBirthday(){
 		return birthday;
 	}
-	public setBirthday(Date birthday){
+	public void setBirthday(Date birthday){
 		this.birthday = birthday;
 	}
-	public getAddress(){
+	public String getAddress(){
 		return address;
 	}
-	public setAddress(String address){
+	public void setAddress(String address){
 		this.address=address;
 	}
-	public getEmail(){
+	public String getEmail(){
 		return email;
 	}
-	public setAddress(String email){
+	public void setAddress(String email){
 		this.email=email;
 	}
-	public getGender(){
+	public char getGender(){
 		return gender;
 	}
-	public setGender(char gender){
+	public void setGender(char gender){
 		this.gender=gender;
 	}
 }

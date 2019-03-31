@@ -11,16 +11,16 @@ public class Team extends EQuipu{
 		teams = new ArrayList<Member>();
 	}
 
-	public getName(){
+	public String getName(){
 		return name;
 	}
-	public setName(String name){
+	public void setName(String name){
 		this.name = name;
 	}
-	public getInterest(){
+	public String getInterest(){
 		return interest;
 	}
-	public setInterest(String interest){
+	public void setInterest(String interest){
 		this.interest = interest;
 	}
 	public addMember(Member member){

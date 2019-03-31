@@ -7,7 +7,7 @@ public abstract class MemberPUCP extends Member implements Consultable{
 		Super(name, birthday, address, email, gender);
 	}
 
-	public consultData(){
+	public String consultData(){
 		return "";
 	}
 }
