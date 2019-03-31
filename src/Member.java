@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Member{
+public class Member extends Team{
 
 	private static int code=0;
 	private String name;

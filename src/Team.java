@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Team{
+public class Team extends EQuipu{
 
 	private List<Member> members;
 
