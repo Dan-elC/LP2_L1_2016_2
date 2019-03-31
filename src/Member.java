@@ -10,7 +10,9 @@ public class Member{
 	private char gender;
 
 	public Member(String name, Date birthday, String address,	String email, char gender){
-
+		this.name=name;
+		this birthday = birthday;
+		this.addess=addres;
 	}
 
 
