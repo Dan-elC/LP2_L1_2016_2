@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Member{
 
-	private static int code;
+	private static int code=0;
 	private String name;
 	private Date birthday;
 	private String address;
@@ -13,6 +13,7 @@ public class Member{
 		this.name=name;
 		this birthday = birthday;
 		this.addess=addres;
+		code++;
 	}
 
 
