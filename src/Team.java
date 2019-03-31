@@ -8,7 +8,7 @@ public class Team extends EQuipu{
 	private String interest;
 
 	public Team(){
-		teams = new ArrayList<Member>();
+		members = new ArrayList<Member>();
 	}
 
 	public String getName(){
@@ -23,7 +23,7 @@ public class Team extends EQuipu{
 	public void setInterest(String interest){
 		this.interest = interest;
 	}
-	public addMember(Member member){
+	public void addMember(Member member){
 		members.add(member);
 	}
 }

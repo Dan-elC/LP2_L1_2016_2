@@ -20,7 +20,7 @@ public class Professor{
 	public String getStatus(){
 		return status;
 	}
-	public void setStatus(double status){
+	public void setStatus(String status){
 		this.status=status;
 	}
 }

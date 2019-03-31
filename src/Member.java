@@ -10,19 +10,19 @@ public class Member extends Team{
 	private char gender;
 
 	public Member(){
-		
+
 	}
 
 	public Member(String name, Date birthday, String address,	String email, char gender){
 		this.name=name;
-		this birthday = birthday;
-		this.addess=addres;
+		this.birthday = birthday;
+		this.address=address;
 		this.email=email;
 		this.gender=gender;
 		code++;
 	}
 
-	public Sring getName(){
+	public String getName(){
 		return name;
 	}
 	public void setName(String name){
@@ -43,7 +43,7 @@ public class Member extends Team{
 	public String getEmail(){
 		return email;
 	}
-	public void setAddress(String email){
+	public void setEmail(String email){
 		this.email=email;
 	}
 	public char getGender(){
