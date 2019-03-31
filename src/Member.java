@@ -9,6 +9,10 @@ public class Member extends Team{
 	private String email;
 	private char gender;
 
+	public Member(){
+		
+	}
+
 	public Member(String name, Date birthday, String address,	String email, char gender){
 		this.name=name;
 		this birthday = birthday;
