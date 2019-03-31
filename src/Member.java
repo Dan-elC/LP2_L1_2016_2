@@ -9,7 +9,7 @@ public class Member{
 	private String email;
 	private char gender;
 
-	public Member(int code,	String name, Date birthday, String address,	String email, char gender){
+	public Member(String name, Date birthday, String address,	String email, char gender){
 
 	}
 
