@@ -29,6 +29,6 @@ public class Student extends MemberPUCP{
 
 	public String consultData(){
 
-		return "Alumno:" + Integer.toString(codePUCP) + " - " + getName() + " - " + Double.toString(craest);
+		return "Alumno: " + Integer.toString(codePUCP) + " - " + getName() + " - " + Double.toString(craest);
 	}
 }
