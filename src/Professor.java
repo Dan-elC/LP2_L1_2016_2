@@ -7,6 +7,7 @@ public class Professor extends MemberPUCP{
 
 	}
 	public Professor(String name, Date birthday, String address, String email, char gender, int codePUCP, String status){
+		super(name, birthday, address, email, gender);
 		this.codePUCP=codePUCP;
 		this.status=status;
 	}
