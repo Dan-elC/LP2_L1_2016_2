@@ -18,7 +18,7 @@ public class Principal{
 
 		objEquipu.getTeams().add(team1);
 
-		String report = objEquipu.consultMembersEquipu(1);
+		String report = objEquipu.consultMembersEquipu(0);
 
 		System.out.println(report);
 	}
