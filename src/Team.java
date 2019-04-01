@@ -10,7 +10,9 @@ public class Team extends EQuipu{
 	public Team(){
 		members = new ArrayList<Member>();
 	}
-
+	public List<Member> getMembers(){
+		return members;
+	}
 	public String getName(){
 		return name;
 	}

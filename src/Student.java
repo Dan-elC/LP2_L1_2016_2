@@ -6,7 +6,7 @@ public class Student extends MemberPUCP{
 	public Student(){
 
 	}
-	public Student(int codePUCP, double craest){
+	public Student(String name, Date birthday, String address, String email, char gender,int codePUCP, double craest){
 		this.codePUCP =codePUCP;
 		this.craest = craest;
 	}

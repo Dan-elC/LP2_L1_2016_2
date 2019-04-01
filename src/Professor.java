@@ -1,4 +1,4 @@
-public class Professor{
+public class Professor extends MemberPUCP{
 
 	private int codePUCP;
 	private String status;
@@ -6,7 +6,7 @@ public class Professor{
 	public Professor(){
 
 	}
-	public Professor(int codePUCP, String status){
+	public Professor(String name, Date birthday, String address, String email, char gender, int codePUCP, String status){
 		this.codePUCP=codePUCP;
 		this.status=status;
 	}
