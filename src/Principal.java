@@ -1,4 +1,4 @@
-
+import java.util.*;
 
 public class Principal{
 	public static void main(String[] args){
@@ -6,7 +6,7 @@ public class Principal{
 		Date date = new Date();
 
 		//Create Teams
-		Team team1 = new Team();		
+		Team team1 = new Team();
 
 		Student member1 = new Student();
 		

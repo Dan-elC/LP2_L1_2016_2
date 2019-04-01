@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Student extends MemberPUCP{
 	
 	private int codePUCP;
