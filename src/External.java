@@ -9,9 +9,5 @@ public class External extends Member{
 	public External(String name, Date birthday, String address, String email, char gender,char dedication){
 		super(name, birthday, address, email, gender);
 		this.dedication=dedication;
-	}
-	public String consultData(){
-
-		return "Alumno:" + getName() + " - " + Char.toString(dedication);
-	}
+	}	
 }
