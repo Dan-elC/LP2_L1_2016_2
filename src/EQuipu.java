@@ -15,9 +15,6 @@ public class EQuipu{
 	public String consultMembersEquipu(int index){
 
 		String chain = "";
-
-		
-
 		
 		for(Member mem : teams.get(index).getMembers() ){
 			chain = chain + "\n" +mem.getName();
