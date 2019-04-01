@@ -26,4 +26,9 @@ public class Student extends MemberPUCP{
 	public void setCraest(double craest){
 		this.craest=craest;
 	}
+
+	public String consultData(){
+
+		return "Alumno:" + Integer.toString(codePUCP) + " - " + name + " - " + Double.toString(craest);
+	}
 }

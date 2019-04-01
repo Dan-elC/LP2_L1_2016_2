@@ -26,4 +26,8 @@ public class Professor extends MemberPUCP{
 	public void setStatus(String status){
 		this.status=status;
 	}
+	public String consultData(){
+
+		return "Profesor:" + Integer.toString(codePUCP) + " - " + name + " - " + status;
+	}
 }

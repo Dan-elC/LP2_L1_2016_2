@@ -16,14 +16,13 @@ public class EQuipu{
 
 		String chain = "";
 
-		//chain = teams.get(index).get(1).getName();
-		System.out.println(teams.get(index));
+		
 
-		/*
-		for(Member mem : teams.get(index)){
-			chain = mem.getName();
+		
+		for(Member mem : teams.get(index).getMembers() ){
+			chain = chain + "\n" +mem.getName();
 		}
-		*/
+		
 		return chain;
 	}
 }
