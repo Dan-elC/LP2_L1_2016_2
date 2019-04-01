@@ -12,6 +12,6 @@ public class External extends Member{
 	}
 	public String consultData(){
 
-		return "Alumno:" + name + " - " + Char.toString(dedication);
+		return "Alumno:" + getName() + " - " + Char.toString(dedication);
 	}
 }

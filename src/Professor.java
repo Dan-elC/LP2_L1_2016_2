@@ -28,6 +28,6 @@ public class Professor extends MemberPUCP{
 	}
 	public String consultData(){
 
-		return "Profesor:" + Integer.toString(codePUCP) + " - " + name + " - " + status;
+		return "Profesor:" + Integer.toString(codePUCP) + " - " + getName() + " - " + status;
 	}
 }
